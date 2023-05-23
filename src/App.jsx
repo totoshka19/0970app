@@ -1,29 +1,9 @@
-import "./App.css";
 import {NavLink, Route, Routes} from "react-router-dom";
-
-const Profile = () => {
-    return (
-        <h1>Это страница с профилем</h1>
-    );
-}
-
-const Messages = () => {
-    return (
-        <h1>Это страница с сообщениями</h1>
-    );
-}
-
-const Settings = () => {
-    return (
-        <h1>Это страница с настройками</h1>
-    );
-}
-
-const Shop = () => {
-    return (
-        <h1>Это страница с магазином</h1>
-    );
-}
+import "./App.css";
+import {Profile} from "./components/Profile";
+import {Messages} from "./components/Messages";
+import {Settings} from "./components/Settings";
+import {Shop} from "./components/Shop";
 
 function App() {
     return (
