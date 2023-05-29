@@ -14,9 +14,7 @@ export const Profile = (props) => {
                 <h2 className={styles.id}>ID: <span>{user.id}</span></h2>
                 <h2 className={styles.name}>Фамилия и имя: <span>{user.lastname} {user.name}</span></h2>
                 <p className={styles.mail}>Email: <span>{user.email}</span></p>
-                <p className={styles.text}>
-                    {user.about}
-                </p>
+                <p className={styles.text}>{user.about}</p>
                 <p style={{fontWeight: 700}}>Небольшой текст</p>
             </div>
         </div>

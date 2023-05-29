@@ -55,8 +55,8 @@ export function getUser(userId) {
 }
 
 export async function getUsers() {
-    let responce = await fetch("https://");
-    // let responce = await fetch("https://jessy.p-host.in/getUsers");
+    // let responce = await fetch("https://");
+    let responce = await fetch("https://jessy.p-host.in/getUsers");
     users = await responce.json();
     console.log(users);
     return users;

@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="957b06d9-256b-4246-8564-dcef651f8a35" name="Changes" comment="add tailwind">
-      <change afterPath="$PROJECT_DIR$/src/components/Advice.jsx" afterDir="false" />
+    <list default="true" id="957b06d9-256b-4246-8564-dcef651f8a35" name="Changes" comment="change Messages, add Advice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Settings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/state.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/state.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,25 +38,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Обучение/Frontend/0970app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;D:\\Обучение\\Frontend\\0970app\\node_modules\\eslint&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Обучение/Frontend/0970app-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "D:\\Обучение\\Frontend\\0970app\\node_modules\\eslint",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Обучение\Frontend\0970app\src\assets\img" />
@@ -93,6 +91,8 @@
       <workItem from="1684924365113" duration="11351000" />
       <workItem from="1685010742105" duration="1900000" />
       <workItem from="1685014356922" duration="615000" />
+      <workItem from="1685099522043" duration="29000" />
+      <workItem from="1685368424957" duration="4147000" />
     </task>
     <task id="LOCAL-00001" summary="add BrowserRouter">
       <created>1684759585228</created>
@@ -129,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684933847162</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change Messages, add Advice">
+      <created>1685023678072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685023678072</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +159,7 @@
     <MESSAGE value="add components" />
     <MESSAGE value="add css component, add state with users" />
     <MESSAGE value="add tailwind" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tailwind" />
+    <MESSAGE value="change Messages, add Advice" />
+    <option name="LAST_COMMIT_MESSAGE" value="change Messages, add Advice" />
   </component>
 </project>

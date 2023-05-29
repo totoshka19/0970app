@@ -1,6 +1,6 @@
-import React from "react";
 import {NavLink} from "react-router-dom";
 import rowImg from "../assets/img/about-3.jpg";
+import React from "react";
 
 const TableRow = (props) => {
     return (
